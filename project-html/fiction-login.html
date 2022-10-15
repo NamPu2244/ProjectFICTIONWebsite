@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="assets/js/index.js"></script>
+    <title>Fictionlog - Ebook</title>
+</head>
+
+<body>
+    <!-- #โลโก้ + เมนู -->
+    <header>
+        <a href="#" class="logo">
+            <img src="assets/images/header/Fictionlog-logo.png">
+        </a>
+        <ul>
+            <li><a href="home.html">หน้าหลัก</a></li>
+            <li><a href="fiction-login.html" class="active">อีบุ๊คนิยาย</a></li>
+            <li><a href="#">คลังของฉัน</a></li>
+            <li><a href="index.html" id="login">นักอ่าน : Nampu</a></li>
+        </ul>
+    </header>
+    <!-- #พื้นหลัง -->
+    <section>
+        <img src="assets/images/header/background.png" id="bg">
+        <img src="assets/images/header/mid.png" id="mid">
+        <img src="assets/images/header/foreground.png" id="fore">
+    </section>
+    <!-- โฆษณา -->
+    <div class="slide-ads sliders">
+        <div class="ads">
+            <img src="assets/images/ads/ads1.jpeg">
+        </div>
+        <div class="ads">
+            <img src="assets/images/ads/ads2.jpeg">
+        </div>
+        <div class="ads">
+            <img src="assets/images/ads/ads3.jpeg">
+        </div>
+    </div>
+    <!-- นิยายแนะนำ -->
+    <div class="promote">
+        <div class="fic-promote">
+            <h1>นิยายแนะนำสำหรับคุณ</h1>
+        </div>
+        <div class="profic">
+            <div class="book">
+                <div class="book-img">
+                    <img src="assets/images/promote/p1.jpg" alt="">
+                </div>
+                <div class="book-name">ผมนี่แหละ เจ้าแห่งฟาร์ม...</div>
+                <div class="book-pd">Ink Stone_Fantasy</div>
+                <div class="book-catagories">แฟนตาซี</div>
+            </div>
+            <div class="book">
+                <div class="book-img">
+                    <img src="assets/images/promote/p2.jpg" alt="">
+                </div>
+                <div class="book-name">Brutal or love โหดสัส...</div>
+                <div class="book-pd">Star_Diamond</div>
+                <div class="book-catagories">วาย</div>
+            </div>
+            <div class="book">
+                <div class="book-img">
+                    <img src="assets/images/promote/p3.jpg" alt="">
+                </div>
+                <div class="book-name">Freshy ! รุ่นพี่ครับ แต่ง...</div>
+                <div class="book-pd">WRA*</div>
+                <div class="book-catagories">วาย</div>
+            </div>
+            <div class="book">
+                <div class="book-img">
+                    <img src="assets/images/promote/p4.jpg" alt="">
+                </div>
+                <div class="book-name">Monster Pet Evolution ...</div>
+                <div class="book-pd">Ink Stone_Fantasy</div>
+                <div class="book-catagories">แฟนตาซี</div>
+            </div>
+            <div class="book">
+                <div class="book-img">
+                    <img src="assets/images/promote/p5.jpg" alt="">
+                </div>
+                <div class="book-name">สลับชะตา ชายามือสังหาร</div>
+                <div class="book-pd">Ink Stone_Romance</div>
+                <div class="book-catagories">โรแมนติก</div>
+            </div>
+        </div>
+    </div>
+    <!-- จัดอันดับนิยาย -->
+    <div class="ranking-ebook">
+        <div class="rank-name">
+            <h1>อันดับนิยายสุดฮิต! ติดกระแส</h1>
+        </div>
+        <div class="all-rank">
+            <div class="all-rank-1">
+                <div class="rank-ebook">
+                    <div class="icon-rank">
+                        <img src="assets/images/ranking/rank-01.png" alt="">
+                    </div>
+                    <div class="rank-ebook-img">
+                        <img src="assets/images/ebook/rank-ebook1.jpeg" alt="">
+                    </div>
+                    <div class="rank-ebook-info">
+                        <div class="rank-ebook-name">ฉันกลายเป็นภรรยาที่ถูกหย่า เล่ม 1</div>
+                        <div class="rank-ebook-pd">สำนักพิมพ์ห้องสมุด</div>
+                        <div class="rank-ebook-cata">โรแมนติก</div>
+                    </div>
+                </div>
+                <div class="rank-ebook">
+                    <div class="icon-rank">
+                        <img src="assets/images/ranking/rank-02.png" alt="">
+                    </div>
+                    <div class="rank-ebook-img">
+                        <img src="assets/images/ebook/rank-ebook2.jpeg" alt="">
+                    </div>
+                    <div class="rank-ebook-info">
+                        <div class="rank-ebook-name">ฉันกลายเป็นภรรยาที่ถูกหย่า เล่ม 2</div>
+                        <div class="rank-ebook-pd">สำนักพิมพ์ห้องสมุด</div>
+                        <div class="rank-ebook-cata">โรแมนติก</div>
+                    </div>
+                </div>
+                <div class="rank-ebook">
+                    <div class="icon-rank">
+                        <img src="assets/images/ranking/rank-03.png" alt="">
+                    </div>
+                    <div class="rank-ebook-img">
+                        <img src="assets/images/ebook/rank-ebook3.jpeg" alt="">
+                    </div>
+                    <div class="rank-ebook-info">
+                        <div class="rank-ebook-name">ฉันกลายเป็นภรรยาที่ถูกหย่า เล่ม 3</div>
+                        <div class="rank-ebook-pd">สำนักพิมพ์ห้องสมุด</div>
+                        <div class="rank-ebook-cata">โรแมนติก</div>
+                    </div>
+                </div>
+            </div>
+            <div class="all-rank-2">
+                <div class="rank-ebook">
+                    <div class="icon-rank">
+                        <img src="assets/images/ranking/rank-04.png" alt="">
+                    </div>
+                    <div class="rank-ebook-img">
+                        <img src="assets/images/ebook/rank-ebook1.jpeg" alt="">
+                    </div>
+                    <div class="rank-ebook-info">
+                        <div class="rank-ebook-name">ฉันกลายเป็นภรรยาที่ถูกหย่า เล่ม 1</div>
+                        <div class="rank-ebook-pd">สำนักพิมพ์ห้องสมุด</div>
+                        <div class="rank-ebook-cata">โรแมนติก</div>
+                    </div>
+                </div>
+                <div class="rank-ebook">
+                    <div class="icon-rank">
+                        <img src="assets/images/ranking/rank-05.png" alt="">
+                    </div>
+                    <div class="rank-ebook-img">
+                        <img src="assets/images/ebook/rank-ebook3.jpeg" alt="">
+                    </div>
+                    <div class="rank-ebook-info">
+                        <div class="rank-ebook-name">ฉันกลายเป็นภรรยาที่ถูกหย่า เล่ม 2</div>
+                        <div class="rank-ebook-pd">สำนักพิมพ์ห้องสมุด</div>
+                        <div class="rank-ebook-cata">โรแมนติก</div>
+                    </div>
+                </div>
+                <div class="rank-ebook">
+                    <div class="icon-rank">
+                        <img src="assets/images/ranking/rank-06.png" alt="">
+                    </div>
+                    <div class="rank-ebook-img">
+                        <img src="assets/images/ebook/rank-ebook3.jpeg" alt="">
+                    </div>
+                    <div class="rank-ebook-info">
+                        <div class="rank-ebook-name">ฉันกลายเป็นภรรยาที่ถูกหย่า เล่ม 3</div>
+                        <div class="rank-ebook-pd">สำนักพิมพ์ห้องสมุด</div>
+                        <div class="rank-ebook-cata">โรแมนติก</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- นิยายขายดี -->
+    <div class="sl-book">
+        <div class="sl-head">
+            <h1>นิยายขายดี อันดับ 1</h1>
+        </div>
+        <div class="selling-book">
+            <div class="selling">
+                <div class="sl-img">
+                    <img src="assets/images/selling/sl1.jpeg" alt="">
+                </div>
+                <div class="sl-name">หมอหญิงกับลูกลิงทั้งสาม</div>
+                <div class="sl-pd">Ink Stone_Romance</div>
+                <div class="sl-selling">
+                    <div class="sl-coin">
+                        <img src="assets/images/icon/goldCoin.png" alt="">
+                    </div>
+                    <div class="sl-coin-thb">179.00</div>
+                    <div class="sl-button">ซื้อ</div>
+                </div>
+            </div>
+            <div class="selling">
+                <div class="sl-img">
+                    <img src="assets/images/selling/sl2.jpeg" alt="">
+                </div>
+                <div class="sl-name">ชายาแม่ทักพยามไม่ได้ เล่ม2</div>
+                <div class="sl-pd">JamsaiBook</div>
+                <div class="sl-selling">
+                    <div class="sl-coin">
+                        <img src="assets/images/icon/goldCoin.png" alt="">
+                    </div>
+                    <div class="sl-coin-thb">349.00</div>
+                    <div class="sl-button">ซื้อ</div>
+                </div>
+            </div>
+            <div class="selling">
+                <div class="sl-img">
+                    <img src="assets/images/selling/sl3.jpeg" alt="">
+                </div>
+                <div class="sl-name">โอตาคุวันสิ้นโลก 2</div>
+                <div class="sl-pd">สำนักพิมพ์โรส</div>
+                <div class="sl-selling">
+                    <div class="sl-coin">
+                        <img src="assets/images/icon/goldCoin.png" alt="">
+                    </div>
+                    <div class="sl-coin-thb">325.00</div>
+                    <div class="sl-button">ซื้อ</div>
+                </div>
+            </div>
+            <div class="selling">
+                <div class="sl-img">
+                    <img src="assets/images/selling/sl4.jpeg" alt="">
+                </div>
+                <div class="sl-name">ทะลุระบบข้ามภพมาหารัก</div>
+                <div class="sl-pd">MOKA</div>
+                <div class="sl-selling">
+                    <div class="sl-coin">
+                        <img src="assets/images/icon/goldCoin.png" alt="">
+                    </div>
+                    <div class="sl-coin-thb">250.00</div>
+                    <div class="sl-button">ซื้อ</div>
+                </div>
+            </div>
+            <div class="selling">
+                <div class="sl-img">
+                    <img src="assets/images/selling/sl5.jpeg" alt="">
+                </div>
+                <div class="sl-name">ครึ่งเซียนพาร์ตไทม์</div>
+                <div class="sl-pd">Lilac Novel</div>
+                <div class="sl-selling">
+                    <div class="sl-coin">
+                        <img src="assets/images/icon/goldCoin.png" alt="">
+                    </div>
+                    <div class="sl-coin-thb">125.00</div>
+                    <div class="sl-button">ซื้อ</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- นิยายรวมเล่ม -->
+    <div class="fiction-book">
+        <div class="fic-book">
+            <h1>รวมเล่ม นิยายสุดฮิต!</h1>
+        </div>
+        <div class="fic-ftb">
+            <div class="ftb">
+                <div class="ftb-img">
+                    <img src="assets/images/fictionbook/ftb1.jpg" alt="">
+                </div>
+                <div class="ftb-name">Cutie Pie นิ่งเฮียก็หาว่าซื่อ</div>
+                <div class="ftb-pd">สำนักพิมพ์โรส • แบมแบม</div>
+            </div>
+            <div class="ftb">
+                <div class="ftb-img">
+                    <img src="assets/images/fictionbook/ftb2.jpg" alt="">
+                </div>
+                <div class="ftb-name">เพราะเราะ... คู่กัน เล่ม 1</div>
+                <div class="ftb-pd">everY • JittiRain</div>
+            </div>
+        </div>
+    </div>
+    <!-- อัปเดตนิยายรายตอน -->
+    <div class="update-book">
+        <div class="up-text"><h1>นิยายอัปเดตล่าสุด</h1></div>
+        <!-- แถวที่ 1 -->
+        <div class="up-book-list">
+          <div class="up-book">
+            <div class="up-img">
+              <img src="assets/images/update/up1.jpeg" alt="">
+            </div>
+            <div class="up-txt">
+              <div class="up-name">เหมียวหง่าวกับชาวนักษัตร</div>
+              <div class="up-dis">Ink Stone_Y</div>
+              <div class="up-ct">Boylove</div>
+              <div class="up-btn">
+                <div class="up-seen">
+                  <img src="assets/images/icon/seen.png" alt="">
+                </div>
+                <div class="up-seen-txt">7.2K</div>
+                <div class="up-storage">
+                  <img src="assets/images/icon/storage.png" alt="">
+                </div>
+                <div class="up-storage-txt">5.2K</div>
+                <div class="up-comment">
+                  <img src="assets/images/icon/comment.png" alt="">
+                </div>
+                <div class="up-comment-txt">599 comment</div>
+              </div>
+            </div>
+          </div>
+          <div class="up-book">
+            <div class="up-img">
+              <img src="assets/images/update/up2.jpeg" alt="">
+            </div>
+            <div class="up-txt">
+              <div class="up-name">CATCH! คว้าใจไว้ลุ้นรัก</div>
+              <div class="up-dis">MOKA</div>
+              <div class="up-ct">Boylove</div>
+              <div class="up-btn">
+                <div class="up-seen">
+                  <img src="assets/images/icon/seen.png" alt="">
+                </div>
+                <div class="up-seen-txt">9.2K</div>
+                <div class="up-storage">
+                  <img src="assets/images/icon/storage.png" alt="">
+                </div>
+                <div class="up-storage-txt">8.2K</div>
+                <div class="up-comment">
+                  <img src="assets/images/icon/comment.png" alt="">
+                </div>
+                <div class="up-comment-txt">789 comment</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- แถวที่ 2 -->
+        <div class="up-book-list">
+          <div class="up-book">
+            <div class="up-img">
+              <img src="assets/images/update/up3.jpeg" alt="">
+            </div>
+            <div class="up-txt">
+              <div class="up-name">เกิดใหม่ครั้งนี้ ไม่ขอเป็นซุปตาร์</div>
+              <div class="up-dis">Jinovel</div>
+              <div class="up-ct">Boylove</div>
+              <div class="up-btn">
+                <div class="up-seen">
+                  <img src="assets/images/icon/seen.png" alt="">
+                </div>
+                <div class="up-seen-txt">3.2K</div>
+                <div class="up-storage">
+                  <img src="assets/images/icon/storage.png" alt="">
+                </div>
+                <div class="up-storage-txt">2.2K</div>
+                <div class="up-comment">
+                  <img src="assets/images/icon/comment.png" alt="">
+                </div>
+                <div class="up-comment-txt">477 comment</div>
+              </div>
+            </div>
+          </div>
+          <div class="up-book">
+            <div class="up-img">
+              <img src="assets/images/update/up4.jpeg" alt="">
+            </div>
+            <div class="up-txt">
+              <div class="up-name">แด่คุณ... ความรักของ(เพื่อน)ผม</div>
+              <div class="up-dis">MOKA</div>
+              <div class="up-ct">Boylove</div>
+              <div class="up-btn">
+                <div class="up-seen">
+                  <img src="assets/images/icon/seen.png" alt="">
+                </div>
+                <div class="up-seen-txt">3.5K</div>
+                <div class="up-storage">
+                  <img src="assets/images/icon/storage.png" alt="">
+                </div>
+                <div class="up-storage-txt">2.7K</div>
+                <div class="up-comment">
+                  <img src="assets/images/icon/comment.png" alt="">
+                </div>
+                <div class="up-comment-txt">799 comment</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- แถวที่ 3 -->
+        <div class="up-book-list">
+          <div class="up-book">
+            <div class="up-img">
+              <img src="assets/images/update/up5.jpeg" alt="">
+            </div>
+            <div class="up-txt">
+              <div class="up-name">Hyperventilation รักแรก</div>
+              <div class="up-dis">Gemini Publishing</div>
+              <div class="up-ct">Boylove</div>
+              <div class="up-btn">
+                <div class="up-seen">
+                  <img src="assets/images/icon/seen.png" alt="">
+                </div>
+                <div class="up-seen-txt">3.4K</div>
+                <div class="up-storage">
+                  <img src="assets/images/icon/storage.png" alt="">
+                </div>
+                <div class="up-storage-txt">1.9K</div>
+                <div class="up-comment">
+                  <img src="assets/images/icon/comment.png" alt="">
+                </div>
+                <div class="up-comment-txt">269 comment</div>
+              </div>
+            </div>
+          </div>
+          <div class="up-book">
+            <div class="up-img">
+              <img src="assets/images/update/up6.jpeg" alt="">
+            </div>
+            <div class="up-txt">
+              <div class="up-name">Half Line ข้ามเส้นนี้ไป ระวังตกหลุมรัก</div>
+              <div class="up-dis">Ink Stone_Y</div>
+              <div class="up-ct">Boylove</div>
+              <div class="up-btn">
+                <div class="up-seen">
+                  <img src="assets/images/icon/seen.png" alt="">
+                </div>
+                <div class="up-seen-txt">5.9K</div>
+                <div class="up-storage">
+                  <img src="assets/images/icon/storage.png" alt="">
+                </div>
+                <div class="up-storage-txt">1.4K</div>
+                <div class="up-comment">
+                  <img src="assets/images/icon/comment.png" alt="">
+                </div>
+                <div class="up-comment-txt">248 comment</div>
+              </div>
+            </div>
+          </div>
+      </div>
+    <!-- footer -->
+    <footer>
+      <p>&copy; 2022 เครดิตรูปภาพและเนื้อหาจากเว็บไซต์ fictionlog.co จัดทำโดยกลุ่ม อืมมมม ไม่ไหวหรอกนะ</p><br>
+      <p>รหัสนิสิต 64021924 นายวานิตย์ นิมสุวรรณ์, รหัสนิสิต 64024398 นายอัครชัย คนหลวง</p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript">
+      $('.sliders').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1750,
+    });
+    </script>
+    <script>
+      function login(){
+        let user = document.getElementById('login');
+        user.innerHTML = 'ออกจากระบบ'
+      }
+  
+      function logout(){
+        let user = document.getElementById('login');
+        user.innerHTML = 'นักอ่าน : Nampu'
+      }
+  
+      window.onload = function(){
+        let user = document.getElementById('login');
+        user.onmouseover = login
+        user.onmouseout = logout
+      }
+    </script>
+</body>
+
+</html>
